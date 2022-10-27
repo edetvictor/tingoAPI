@@ -1,0 +1,318 @@
+2020-09-30 01:33:50: error: uncaughtException: trainSchema is not defined
+ReferenceError: trainSchema is not defined
+    at Object.<anonymous> (C:\Users\user\Desktop\bank_accounts\models\customerDetails.js:17:1)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\user\Desktop\bank_accounts\service\customerDetails.js:1:25)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\user\Desktop\bank_accounts\controller\customerDetails.js:1:25)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+2020-09-30 15:11:10: error: MongoDB connection unsuccessful, retry after 5 seconds.MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+2020-09-30 15:27:10: error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\user\Desktop\bank_accounts\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as get] (C:\Users\user\Desktop\bank_accounts\node_modules\express\lib\router\index.js:510:19)
+    at Object.<anonymous> (C:\Users\user\Desktop\bank_accounts\routes\accountDetails.js:6:8)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\user\Desktop\bank_accounts\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+2020-09-30 17:01:55: error: uncaughtException: Cannot access 'express' before initialization
+ReferenceError: Cannot access 'express' before initialization
+    at Object.<anonymous> (C:\Users\user\Desktop\bank_accounts\controller\accountDetails.js:2:16)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\user\Desktop\bank_accounts\routes\accountDetails.js:2:17)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\user\Desktop\bank_accounts\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+2020-09-30 17:02:44: error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\user\Desktop\bank_accounts\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as get] (C:\Users\user\Desktop\bank_accounts\node_modules\express\lib\router\index.js:510:19)
+    at Object.<anonymous> (C:\Users\user\Desktop\bank_accounts\routes\accountDetails.js:6:8)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\user\Desktop\bank_accounts\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+2020-09-30 17:03:20: error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\user\Desktop\bank_accounts\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as get] (C:\Users\user\Desktop\bank_accounts\node_modules\express\lib\router\index.js:510:19)
+    at Object.<anonymous> (C:\Users\user\Desktop\bank_accounts\routes\accountDetails.js:6:8)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\user\Desktop\bank_accounts\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+2020-09-30 17:03:36: error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\user\Desktop\bank_accounts\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as get] (C:\Users\user\Desktop\bank_accounts\node_modules\express\lib\router\index.js:510:19)
+    at Object.<anonymous> (C:\Users\user\Desktop\bank_accounts\routes\accountDetails.js:6:8)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\user\Desktop\bank_accounts\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+2020-09-30 17:04:18: error: uncaughtException: Router.use() requires a middleware function but got a undefined
+TypeError: Router.use() requires a middleware function but got a undefined
+    at Function.use (C:\Users\user\Desktop\bank_accounts\node_modules\express\lib\router\index.js:458:13)
+    at Object.<anonymous> (C:\Users\user\Desktop\bank_accounts\routes\accountDetails.js:7:8)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\user\Desktop\bank_accounts\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\user\Desktop\bank_accounts\server.js:6:13)
+2020-09-30 17:05:06: error: 404 - false - this customerId doesnot exist! - /account - POST - ::ffff:127.0.0.1
+2020-09-30 17:05:31: error: 404 - false - this customerId doesnot exist! - /account - POST - ::ffff:127.0.0.1
+2020-09-30 17:08:55: error: 404 - false - this customerId doesnot exist! - /account - POST - ::ffff:127.0.0.1
+2020-09-30 17:12:51: error: 404 - false - this customerId doesnot exist! - /account - POST - ::ffff:127.0.0.1
+2020-09-30 17:14:29: error: 404 - false - this customerId doesnot exist! - /account - POST - ::ffff:127.0.0.1
+2020-09-30 17:36:43: error: 500 - undefined - AccountDetails validation failed: ammountInPaisa: Please provide a ammount - /account - POST - ::ffff:127.0.0.1
+2020-09-30 17:37:06: error: 500 - undefined - AccountDetails validation failed: ammountInPaisa: Please provide a ammount - /account - POST - ::ffff:127.0.0.1
+2020-09-30 17:38:22: error: 404 - 404 - Not Found - /account/ll - POST - ::ffff:127.0.0.1
+2020-09-30 17:49:39: error: 500 - undefined - amountInPaisa is not defined - /account/ - POST - ::ffff:127.0.0.1
+2020-09-30 17:50:33: error: 404 - false - BasicSavings account cannot have ammount more then Rs. 50,000 - /account/ - POST - ::ffff:127.0.0.1
+2020-09-30 17:51:34: error: 404 - false - BasicSavings account cannot have ammount more than Rs. 50,000 - /account/ - POST - ::ffff:127.0.0.1
+2020-09-30 17:52:36: error: 404 - false - BasicSavings account cannot have ammount more than Rs. 50,000 - /account/ - POST - ::ffff:127.0.0.1
+2020-09-30 17:53:37: error: 404 - false - BasicSavings account cannot have ammount more than Rs. 50,000 - /account/ - POST - ::ffff:127.0.0.1
+2020-09-30 18:04:19: error: 404 - false - BasicSavings account cannot have ammount more than Rs. 50,000 - /account/ - POST - ::ffff:127.0.0.1
+2020-09-30 18:08:09: error: 404 - false - BasicSavings account cannot have ammount more than Rs. 50,000 - /account/ - POST - ::ffff:127.0.0.1
+2020-09-30 18:09:25: error: 404 - false - BasicSavings account cannot have ammount more than Rs. 50,000 - /account/ - POST - ::ffff:127.0.0.1
+2020-09-30 18:32:35: error: uncaughtException: await is only valid in async function
+C:\Users\user\Desktop\bank_accounts\service\accountDetails.js:26
+        let [fromAccountIdExist, toAccountIdExist] = await Promise.all([
+                                                     ^^^^^
+
+SyntaxError: await is only valid in async function
+    at Module._compile (internal/modules/cjs/loader.js:891:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\user\Desktop\bank_accounts\routes\accountDetails.js:4:24)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\user\Desktop\bank_accounts\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+2020-09-30 18:34:41: error: 404 - 404 - Not Found - /account/transaction - GET - ::ffff:127.0.0.1
+2020-09-30 19:41:48: error: 404 - false - either one of the account id doesn't exist or both of them. Please check. - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-09-30 19:48:49: error: 404 - false - source account doesn't have this much amount to transfer. - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-09-30 19:53:43: error: 404 - false - source account doesn't have this much amount to transfer. - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-09-30 19:55:39: error: 404 - false - source account doesn't have this much amount to transfer. - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-09-30 19:57:09: error: 404 - false - source account doesn't have this much amount to transfer. - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-09-30 20:01:29: error: 404 - false - Ammount cannot transfer between same customer - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-09-30 20:04:07: error: 404 - false - source account doesn't have this much amount to transfer. - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-09-30 20:29:32: error: 404 - false - source account doesn't have this much amount to transfer. - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-09-30 20:33:02: error: 404 - false - BasicSavings account amount exceeding Rs. 5000000 - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-09-30 20:33:58: error: 500 - undefined - fromAccountIdExist is not defined - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-09-30 20:34:25: error: 404 - false - BasicSavings account amount cannot exceed Rs.5000000 - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-09-30 20:46:09: error: 404 - false - BasicSavings account amount cannot exceed Rs.50,000 - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-09-30 20:49:47: error: 500 - undefined - res is not defined - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-09-30 21:01:18: error: 404 - false - Transfer between accounts belonging to the same customer is not allowed. - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-09-30 21:01:34: error: 500 - undefined - Cast to ObjectId failed for value "5f747542c9105030148c40pe" at path "_id" for model "AccountDetails" - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-09-30 21:02:15: error: 404 - false - source account doesn't have this much amount to transfer. - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-09-30 21:06:08: error: 404 - false - source account doesn't have this much amount to transfer. - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-09-30 21:24:02: error: 404 - false - Transfer between accounts belonging to the same customer is not allowed. - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-09-30 21:26:10: error: 404 - false - Transfer between accounts belonging to the same customer is not allowed. - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-09-30 21:26:14: error: 404 - false - Transfer between accounts belonging to the same customer is not allowed. - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-09-30 21:26:30: error: 404 - false - source account doesn't have this much amount to transfer. - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-09-30 21:30:24: error: 404 - false - BasicSavings account amount cannot exceed Rs.50,000 - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-10-01 11:48:29: error: uncaughtException: Identifier 'newSrcData' has already been declared
+C:\Users\user\Desktop\bank_accounts\service\accountDetails.js:66
+        const newSrcData = await AccountDetails.findByIdAndUpdate(fromAccountId, srcDataToUpdate, { new: true }),
+              ^
+
+SyntaxError: Identifier 'newSrcData' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:891:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\user\Desktop\bank_accounts\routes\accountDetails.js:4:24)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\user\Desktop\bank_accounts\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+2020-10-01 11:50:04: error: uncaughtException: Unexpected token 'try'
+C:\Users\user\Desktop\bank_accounts\service\accountDetails.js:66
+        try {
+        ^^^
+
+SyntaxError: Unexpected token 'try'
+    at Module._compile (internal/modules/cjs/loader.js:891:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\user\Desktop\bank_accounts\routes\accountDetails.js:4:24)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\user\Desktop\bank_accounts\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+2020-10-01 11:51:05: error: 500 - undefined - fromAccountDatas is not defined - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-10-01 11:51:37: error: 500 - undefined - fromAccountDatas is not defined - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-10-01 11:54:59: error: 404 - false - Transfer denied - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-10-01 15:34:04: error: 400 - fail - Transfer between accounts belonging to the same customer is not allowed. - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-10-01 15:34:28: error: 400 - fail - Either one (or both) of the account id(s) doesn't exist. Kindly check. - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-10-01 15:35:09: error: 400 - fail - Source account doesn't has sufficient amount for transfer. - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-10-01 15:36:20: error: 400 - fail - Transfer between accounts belonging to the same customer is not allowed. - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-10-01 15:36:37: error: 400 - fail - Transaction unsuccessful because BasicSavings account's amount cannot exceed Rs. 50,000 - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-10-01 15:37:37: error: 400 - fail - Transaction unsuccessful because BasicSavings account's amount cannot exceed Rs. 50,000 - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-10-01 15:38:03: error: 400 - fail - Transaction denied - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-10-01 15:38:45: error: 400 - fail - Transaction denied - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-10-01 15:38:59: error: 400 - fail - Transaction denied, try again after sometime - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-10-01 15:39:19: error: 500 - undefined - AccountDetails validation failed: account_type: `Co` is not a valid enum value for path `account_type`. - /account/ - POST - ::ffff:127.0.0.1
+2020-10-01 15:39:36: error: 500 - undefined - AccountDetails validation failed: account_type: Please provide a account type - /account/ - POST - ::ffff:127.0.0.1
+2020-10-01 15:39:50: error: 400 - fail - this customerId does not exist in records. Please register customer details first. - /account/ - POST - ::ffff:127.0.0.1
+2020-10-01 15:40:03: error: 400 - fail - this customerId does not exist in records. Please register customer details first. - /account/ - POST - ::ffff:127.0.0.1
+2020-10-01 15:40:14: error: 400 - fail - this customerId does not exist in records. Please register customer details first. - /account/ - POST - ::ffff:127.0.0.1
+2020-10-01 15:41:15: error: 500 - undefined - AccountDetails validation failed: amountInPaisa: Please provide a amount - /account/ - POST - ::ffff:127.0.0.1
+2020-10-01 15:41:23: error: 400 - fail - this customerId does not exist in records. Please register customer details first. - /account/ - POST - ::ffff:127.0.0.1
+2020-10-01 15:42:12: error: 500 - undefined - CustomerDetails validation failed: pancard: Please provide your pancard details - /customer - POST - ::ffff:127.0.0.1
+2020-10-01 15:42:18: error: 500 - undefined - CustomerDetails validation failed: pancard: Please provide your pancard details, customerName: Please provide your name - /customer - POST - ::ffff:127.0.0.1
+2020-10-01 15:42:37: error: 500 - undefined - E11000 duplicate key error collection: bank-account.customerdetails index: pancard_1 dup key: { pancard: "BOIJP00889981" } - /customer - POST - ::ffff:127.0.0.1
+2020-10-01 16:00:33: error: uncaughtException: listen EADDRINUSE: address already in use :::8080
+Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1306:16)
+    at listenInCluster (net.js:1354:12)
+    at Server.listen (net.js:1442:7)
+    at Function.listen (C:\Users\user\Desktop\bank_accounts\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\user\Desktop\bank_accounts\server.js:30:5)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:1043:10)
+    at internal/main/run_main_module.js:17:11
+2020-10-01 17:27:01: error: uncaughtException: listen EADDRINUSE: address already in use :::8080
+Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1306:16)
+    at listenInCluster (net.js:1354:12)
+    at Server.listen (net.js:1442:7)
+    at Function.listen (C:\Users\user\Desktop\bank_accounts\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\user\Desktop\bank_accounts\server.js:30:5)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:1043:10)
+    at internal/main/run_main_module.js:17:11
+2020-10-01 17:38:38: error: 404 - 404 - Not Found - /favicon.ico - GET - ::ffff:127.0.0.1
+2020-10-02 10:54:09: error: 400 - fail - Transfer between accounts belonging to the same customer is not allowed. - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-10-02 10:54:49: error: 400 - fail - Source account doesn't has sufficient amount for transfer. - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-10-02 10:54:59: error: 400 - fail - Either one (or both) of the account id(s) doesn't exist. Kindly check. - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-10-02 10:55:56: error: 400 - fail - Transaction unsuccessful because BasicSavings account's amount cannot exceed Rs. 50,000 - /account/transaction - PUT - ::ffff:127.0.0.1
+2020-10-02 10:58:33: error: 400 - fail - this customerId does not exist in records. Please register customer details first. - /account/ - POST - ::ffff:127.0.0.1
+2022-10-27 23:37:52: error: uncaughtException: Cannot read property 'replace' of undefined
+TypeError: Cannot read property 'replace' of undefined
+    at Object.<anonymous> (C:\Users\RCCG R5HQ MULTIMEDIA\Desktop\tingoAPI\Money_Transfer\server.js:8:33)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+2022-10-27 23:39:11: error: uncaughtException: Cannot read property 'replace' of undefined
+TypeError: Cannot read property 'replace' of undefined
+    at Object.<anonymous> (C:\Users\RCCG R5HQ MULTIMEDIA\Desktop\tingoAPI\Money_Transfer\server.js:8:33)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+2022-10-27 23:43:58: error: uncaughtException: listen EACCES: permission denied please provide the port.
+Error: listen EACCES: permission denied please provide the port.
+    at Server.setupListenHandle [as _listen2] (net.js:1301:21)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1463:5)
+    at Function.listen (C:\Users\RCCG R5HQ MULTIMEDIA\Desktop\tingoAPI\Money_Transfer\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\RCCG R5HQ MULTIMEDIA\Desktop\tingoAPI\Money_Transfer\server.js:30:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+2022-10-27 23:43:58: error: MongoDB connection unsuccessful, retry after 5 seconds.MongoParseError: Invalid connection string
